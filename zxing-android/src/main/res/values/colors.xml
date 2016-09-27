@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+ Copyright (C) 2008 ZXing authors
+
+ Licensed under the Apache License, Version 2.0 (the "License");
+ you may not use this file except in compliance with the License.
+ You may obtain a copy of the License at
+
+      http://www.apache.org/licenses/LICENSE-2.0
+
+ Unless required by applicable law or agreed to in writing, software
+ distributed under the License is distributed on an "AS IS" BASIS,
+ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ See the License for the specific language governing permissions and
+ limitations under the License.
+ -->
+<resources>
+  <color name="contents_text">#ff000000</color>
+  <color name="encode_view">#ffffffff</color>
+  <color name="possible_result_points">#c0ffbd21</color> <!-- Android standard ICS color -->
+  <color name="result_minor_text">#ffc0c0c0</color>
+  <color name="result_points">#c099cc00</color> <!-- Android standard ICS color -->
+  <color name="result_text">#ffffffff</color>
+  <color name="result_view">#b0000000</color>
+  <color name="status_text">#ffffffff</color>
+  <color name="transparent">#00000000</color>
+  <color name="viewfinder_laser">#ffcc0000</color> <!-- Android standard ICS color -->
+  <color name="viewfinder_mask">#60000000</color>
+
+  <color name="navi_back_color">#F3F6F8</color>
+  <color name="current_fee_color">#536372</color>
+  <color name="current_fee_carnum_back">#E0DED5</color>
+  <color name="current_fee_glay_lock">#92A9BF</color>
+  <color name="drawer_arrow_second_color">#303f9f</color>
+  <color name="yellow_light_fee_moncard_amount">#CDCDBC</color>
+  <color name="ldrawer_color">#FFFFFF</color>
+  <color name="black">#ff000000</color>
+  <color name="biggrey">#ff777777</color>
+  <color name="white">#ffffffff</color>
+  <color name="yellow_fee">#F5C225</color>
+  <color name="mid_night_blue">#ff64a909</color>
+  <color name="background">#f1f1f1</color>
+  <color name="gray">#ffbfbfbf</color>
+  <color name="group_bg">#f1f4f4</color>
+  <color name="pinkred">#FFA07A</color>
+  <color name="btn_orange">#FF7401</color>
+  <color name="gridview_back_orange">#FEE4C1</color>
+
+
+  <color name="gray_back">#7fECF0F1</color>
+  <color name="actionbar_red_click">#b4000f</color>
+  <color name="actionbar_grey">#F2F2F2</color>
+  <color name="actionbar_text">#656565</color>
+  <color name="list_gray">#585858</color>
+  <color name="dimgray">#ee696969</color>
+  <color name="white_transparent">#20000000</color>
+  <color name="blue">#ff37a0fc</color>
+  <color name="list_green">#89cc74</color>
+  <color name="big_title">#333333</color>
+  <color name="glass_green">#16bc00</color>
+  <color name="order_color">#ff9c00</color>
+  <color name="fault_color">#fc0000</color>
+  <color name="using_color">#009356</color>
+  <color name="small_title">#999999</color>
+  <color name="content">#666666</color>
+  <color name="backblue">#4bc1d2</color>
+  <color name="deepblue">#318894</color>
+  <color name="backgrey">#e8e8e8</color>
+  <color name="dialog_dateDay_textColor">#606366</color>
+  <color name="bggrey">#f5f5f5</color>
+  <color name="clickgrey">#d2d2d2</color>
+  <color name="backyellow">#f5856e</color>
+  <color name="btn_bg_color">#4BC1D2</color>
+  <color name="text_black">#353941</color>
+  <color name="text_grey">#909598</color>
+  <color name="text_new_bg">#66696c</color>
+  <color name="choose_eara_item_press_color">#f4f4f4</color>
+  <color name="orange_btn">#FF865D</color>
+  <color name="btn_click_color">#29a1ba</color>
+  <color name="blue_title_bg">#6DCBD9</color>
+  <color name="blue_deep1">#151525</color>
+  <color name="blue_deep2">#09091A</color>
+  <color name="orange">#f5856e</color>
+  <color name="orange_font">#F85018</color>
+  <color name="date_week_textcolor">#c4c7c8</color>
+  <color name="dialog_Spacing">#e7e7e7</color>
+  <color name="dialog_item_back">#edf9fa</color>
+  <color name="book_ok_textColor">#606366</color>
+  <color name="glay_deep_line">#eeeeee</color>
+  <color name="glay_back_deep">#E6E6E6</color>
+  <color name="btn_next">#2e3943</color>
+  <!-- 预订成功 -->
+  <color name="book_ok_order_titleTextColor">#adb0b2</color>
+  <!-- 预订单 -->
+  <!-- 暗灰色 -->
+  <color name="dimgrey">#898989</color>
+  <color name="dimgray1">#f5f5f5</color>
+  <color name="thinkgrey">#696969</color>
+  <color name="grey">#808080</color>
+  <!-- 灰色 -->
+  <color name="floralwhite">#FFFAF0</color>
+  <color name="dimred">#af0d0d</color>
+  <color name="smallred">#FFFAF6</color>
+  <color name="lightred">#e60b0b</color>
+  <color name="transparent_background">#e8e8e8</color>
+  <color name="blue_logo">#000066</color>
+  <color name="blue_actionbar">#232937</color>
+  <color name="orenge_login_button">#FF4800</color>
+  <color name="blue_regist_bg">#383838</color>
+  <color name="glay_main_shopinfo">#A0A2A3</color>
+  <color name="glay_coupon">#BBBBBB</color>
+  <color name="glay1">#E4E4E4</color>
+  <color name="yellow_main">#F39F11</color>
+  <color name="yellow_wallet_top">#F6BC0D</color>
+  <color name="main_top_bg1">#F7FBFE</color>
+  <color name="main_top_bg2">#FFFFFC</color>
+  <color name="main_top_bg3">#DBCFC0</color>
+  <color name="main_sale_profit_t">#8B8C8C</color>
+  <color name="vendor_list_top">#A4D6F7</color>
+  <color name="glay_hint">#ACACAC</color>
+  <color name="glay2">#ECECEC</color>
+  <color name="glay4">#4f4409</color>
+  <color name="glay5">#CCCCCC</color>
+  <color name="glay6">#AEAEAE</color>
+  <color name="glay7">#585858</color>
+  <color name="glay7_1">#CDCDCD</color>
+  <color name="glay7_2">#E9E9E9</color>
+  <color name="gray8">#c9c9c9</color>
+  <color name="naviglay">#82858b</color>
+
+  <color name="actionbar_right_text_glay">#DCE0E4</color>
+  <color name="glay8_search_back">#D7D6D2</color>
+  <color name="glay9_main_tab_font">#4E5358</color>
+  <color name="glay10_fee_item_bg">#F2F2F2</color>
+  <color name="glay11_deep_font">#6F6F6F</color>
+  <color name="glay12">#CECECE</color>
+  <color name="glay13">#EEEEEE</color>
+  <color name="glay14">#f3f3f3</color>
+  <color name="glay15">#a0a0a0</color>
+  <color name="glay16">#2b2b2b</color>
+  <color name="glay_bg">#E1E4EB</color>
+  <color name="glay_font">#A2A5AE</color>
+  <color name="glay_list_font">#8B8C8C</color>
+  <color name="glay_wallet_stoke">#E3E3E3</color>
+  <color name="glay_tab">#929292</color>
+  <color name="main_order_tv">#9B827D</color>
+  <color name="main_red_sale">#C4515E</color>
+  <color name="main_small_pink">#EA7684</color>
+  <color name="black_navi_bg">#2C2C2C</color>
+  <color name="blue_bg">#171673</color>
+  <color name="sale_profits_gray">#C4515E</color>
+  <color name="yellow1">#FFFF66</color>
+  <color name="yellow_wallet_save_below">#FFC823</color>
+  <color name="blue_sky">#DBCFC0</color>
+  <color name="glay_yellow">#E8E7E2</color>
+  <color name="ligth_blue">#4E8A20</color>
+  <color name="ligth_red">#C15C5C</color>
+  <color name="deep_red">#CC0029</color>
+  <color name="navi_ligth_blue">#549E1A</color>
+  <color name="product_purple">#6A5674</color>
+  <color name="product_classify_glay">#818488</color>
+  <color name="big_classify_bg_yellow">#EA7684</color>
+  <color name="middle_classify_text">#666666</color>
+  <color name="product_detail_title_blue">#C4515E</color>
+  <color name="big_classify_press_bg">#FFFDB8</color>
+  <color name="red_edit_ok">#D20B2A</color>
+  <color name="system_blue">#0099CC</color>
+  <color name="blue_deep">#5A5452</color>
+  <color name="blue_theme">#171673</color>
+  <color name="blue_fee_save">#768B9F</color>
+  <color name="green_dataanalysis_deep">#7FB854</color>
+  <color name="green_actionbar">#6ab92c</color>
+  <color name="orenge_deep">#F76809</color>
+  <color name="glay_fragment_bg">#F1F5F9</color>
+  <color name="red_main_setting_lable">#DD0202</color>
+  <color name="glay_loading_data">#E1E4EB</color>
+  <color name="red_order_delete_bt">#E30000</color>
+  <color name="pink">#FF7171</color>
+  <color name="blueness">#3399CC</color>
+  <color name="yellow">#B87333</color>
+  <color name="yellow2">#FFFF00</color>
+  <color name="yellow3">#f6ba16</color>
+  <color name="yellow4">#f4ba20</color>
+  <color name="yellow5">#DDC671</color>
+  <color name="text_color_black">#9ca0a8</color>
+  <color name="text_color_black_deep">#353941</color>
+  <color name="text_color_green_deep">#23ba91</color>
+  <color name="top_color">#23BA91</color>
+  <color name="text_color_dimgray">#6f7278</color>
+  <color name="head_camera">#41b5e8</color>
+  <color name="glay_button">#c4c4c4</color>
+  <color name="actionbar_right_text">#788FA3</color>
+  <color name="btn_yellow">#fbc115</color>
+  <color name="glay_font_deep">#7B7B7B</color>
+  <!--骆驼快充-->
+  <color name="login_regist_light_black">#4F3000</color>
+  <color name="province_line_border">#C7C7C7</color>
+  <color name="viewfinder_frame">#ff000000</color>
+  <color name="gray_bg">#e5e5e4</color>
+  <color name="cyan_cursor_color">#2B91BB</color>
+  <color name="bg_tr_dark">#22000000</color>
+  <!--文字的三种颜色-->
+  <color name="about_us">#2c2c2c</color>
+  <color name="glay_mine_function">#8a8a8a</color>
+  <color name="glay17">#a8a8a8</color>
+  <!-- 背景色 -->
+  <color name="glay3">#F0F0F0</color>
+  <color name="block_glay">#f6f6f6</color>
+  <!--卡线的颜色-->
+  <color name="glay_line">#dedede</color>
+  <!--主色和辅色 -->
+  <color name="actionbar_white">#FFFFFF</color>
+  <color name="yellow6">#ffb03e</color>
+
+  <color name="detail_gray">#f6f6f6</color>
+  <color name="detail_textcolor">#4b4b4b</color>
+  <color name="order_back">#FBFBFD</color>
+</resources>
