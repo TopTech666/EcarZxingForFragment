@@ -1,19 +1,15 @@
 package com.ecar.ecarzxingforfragment;
 
-import android.app.Service;
-import android.content.res.AssetFileDescriptor;
+import android.app.Fragment;
 import android.graphics.Bitmap;
 import android.graphics.Canvas;
 import android.graphics.Paint;
 import android.graphics.PixelFormat;
-import android.media.AudioManager;
 import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.Message;
-import android.os.Vibrator;
 import android.preference.PreferenceManager;
-import android.support.v4.app.Fragment;
 import android.text.TextUtils;
 import android.util.Log;
 import android.view.LayoutInflater;
@@ -32,7 +28,6 @@ import com.google.zxing.BarcodeFormat;
 import com.google.zxing.Result;
 import com.google.zxing.ResultPoint;
 import com.google.zxing.client.android.AmbientLightManager;
-import com.google.zxing.client.android.BeepManager;
 import com.google.zxing.client.android.InactivityTimer;
 import com.google.zxing.client.android.ViewfinderView;
 import com.google.zxing.client.android.camera.CameraManager;
@@ -56,15 +51,15 @@ public class BarCodeScannerFragment extends Fragment implements SurfaceHolder.Ca
     private IResultCallback mCallBack;
     private View view;
     private SurfaceHolder surfaceHolder;
-    private ImageView iv_lamp;
+//    private ImageView iv_lamp;
     private String code;
     private boolean isGetting = false;//是否在等待判断结果
+    private long time; //记录时间
 
     /**
      * 震动持续时间
      */
     private static final long VIBRATE_DURATION = 200L;
-
 
 
     public interface IResultCallback {
@@ -88,6 +83,7 @@ public class BarCodeScannerFragment extends Fragment implements SurfaceHolder.Ca
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstance) {
+        time=System.currentTimeMillis();
         if (view == null) {
             view = inflater.inflate(R.layout.public_capture, null);
             Window window = getActivity().getWindow();
@@ -101,19 +97,18 @@ public class BarCodeScannerFragment extends Fragment implements SurfaceHolder.Ca
             surfaceHolder.setFormat(PixelFormat.TRANSPARENT);
             PreferenceManager.setDefaultValues(getActivity(), R.xml.preferences, false);
             viewfinderView = (ViewfinderView) view.findViewById(R.id.viewfinder_view);
-            iv_lamp = (ImageView) view.findViewById(R.id.iv_lamp);
-            iv_lamp.setImageDrawable(getResources().getDrawable(R.drawable.count_scancode_ic_light_off));
-            iv_lamp.setOnClickListener(new View.OnClickListener() {
-                @Override
-                public void onClick(View v) {
-                    if (isLited) {
-                        setTorchOff();
-                    } else {
-                        setTorchOn();
-                    }
-                }
-            });
-            ImageView ivAlbum = (ImageView) view.findViewById(R.id.iv_album);
+//            iv_lamp = (ImageView) view.findViewById(iv_lamp);
+//            iv_lamp.setImageDrawable(getResources().getDrawable(R.drawable.count_scancode_ic_light_off));
+//            iv_lamp.setOnClickListener(new View.OnClickListener() {
+//                @Override
+//                public void onClick(View v) {
+//                    if (isLited) {
+//                        setTorchOff();
+//                    } else {
+//                        setTorchOn();
+//                    }
+//                }
+//            });
             setCallBack();
             setScanbarAnim();
             startScan();
@@ -141,8 +136,9 @@ public class BarCodeScannerFragment extends Fragment implements SurfaceHolder.Ca
                 if (TextUtils.isEmpty(code)) {
                     return;
                 }
-                Toast.makeText(getActivity(),code,Toast.LENGTH_SHORT).show();
-                isGetting=false;
+                Toast.makeText(getActivity(), code+ "所需时间 = "+(System.currentTimeMillis()-time), Toast.LENGTH_SHORT).show();
+                time=System.currentTimeMillis();
+                isGetting = false;
             }
         });
     }
@@ -172,27 +168,33 @@ public class BarCodeScannerFragment extends Fragment implements SurfaceHolder.Ca
 
     //设置来回扫描的动画
     private void setScanbarAnim() {
-        // 扫描线
-        ImageView captureScanLine = (ImageView) view.findViewById(R.id.captureScanLine);
-        // 扫描线的动画
-        TranslateAnimation mAnimation = new TranslateAnimation(
-                TranslateAnimation.ABSOLUTE, -0.9f, TranslateAnimation.ABSOLUTE,
-                0f, TranslateAnimation.RELATIVE_TO_PARENT, -0.9f,
-                TranslateAnimation.RELATIVE_TO_PARENT, 0.9f);
-        // 动画持续时间
-        mAnimation.setDuration(1500);
-        // 无限循环
-        mAnimation.setRepeatCount(-1);
-        // 动画速率：匀速
-        mAnimation.setInterpolator(new LinearInterpolator());
-        // 设置动画
-        captureScanLine.setAnimation(mAnimation);
+//        // 扫描线
+//        ImageView captureScanLine = (ImageView) view.findViewById(R.id.captureScanLine);
+//        // 扫描线的动画
+//        TranslateAnimation mAnimation = new TranslateAnimation(
+//                TranslateAnimation.ABSOLUTE, -0.9f, TranslateAnimation.ABSOLUTE,
+//                0f, TranslateAnimation.RELATIVE_TO_PARENT, -0.9f,
+//                TranslateAnimation.RELATIVE_TO_PARENT, 0.9f);
+//        // 动画持续时间
+//        mAnimation.setDuration(1500);
+//        // 无限循环
+//        mAnimation.setRepeatCount(-1);
+//        // 动画速率：匀速
+//        mAnimation.setInterpolator(new LinearInterpolator());
+//        // 设置动画
+//        captureScanLine.setAnimation(mAnimation);
     }
 
     @Override
     public void onResume() {
         super.onResume();
         startScan();
+    }
+
+    @Override
+    public void onPause() {
+        super.onPause();
+        stopScan(null);
     }
 
     public void startScan() {
@@ -230,13 +232,13 @@ public class BarCodeScannerFragment extends Fragment implements SurfaceHolder.Ca
 
     public void setTorchOn() {
         isLited = true;
-        iv_lamp.setImageDrawable(getResources().getDrawable(R.drawable.count_scancode_ic_lights));
+//        iv_lamp.setImageDrawable(getResources().getDrawable(R.drawable.count_scancode_ic_lights));
         setTorch(true);
     }
 
     public void setTorchOff() {
         isLited = false;
-        iv_lamp.setImageDrawable(getResources().getDrawable(R.drawable.count_scancode_ic_light_off));
+//        iv_lamp.setImageDrawable(getResources().getDrawable(R.drawable.count_scancode_ic_light_off));
         setTorch(false);
     }
 
@@ -301,7 +303,7 @@ public class BarCodeScannerFragment extends Fragment implements SurfaceHolder.Ca
         boolean fromLiveScan = barcode != null;
         if (fromLiveScan) {
             drawResultPoints(barcode, scaleFactor, rawResult);
-            if (mCallBack != null) {
+            if (mCallBack != null&&!TextUtils.isEmpty(rawResult.toString())) {
                 mCallBack.result(rawResult);
             }
 
@@ -363,7 +365,7 @@ public class BarCodeScannerFragment extends Fragment implements SurfaceHolder.Ca
         try {
             cameraManager.openDriver(surfaceHolder);
             if (handler == null) {
-                handler = new BarCodeScannerHandler(this, cameraManager,viewfinderView);
+                handler = new BarCodeScannerHandler(this, cameraManager, viewfinderView);
             }
             decodeOrStoreSavedBitmap(null, null);
         } catch (IOException ioe) {
@@ -380,17 +382,17 @@ public class BarCodeScannerFragment extends Fragment implements SurfaceHolder.Ca
     }
 
 
-
     boolean isShow;
+
     public void onGone(Object obg) {
         stopScan(null);
-        isShow=false;
+        isShow = false;
     }
 
     public void onShow() {
-        if(!isShow){
+        if (!isShow) {
             startScan();
-            isShow=true;
+            isShow = true;
         }
     }
 

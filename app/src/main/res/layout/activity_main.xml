@@ -6,9 +6,8 @@
     android:layout_height="match_parent"
     tools:context="com.ecar.ecarzxingforfragment.MainActivity">
 
-    <fragment  android:name="com.ecar.ecarzxingforfragment.BarCodeScannerFragment"
-        android:id="@+id/container"
+    <RelativeLayout
+        android:id="@+id/contener"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:background="@color/white" />
+        android:layout_height="match_parent"/>
 </RelativeLayout>

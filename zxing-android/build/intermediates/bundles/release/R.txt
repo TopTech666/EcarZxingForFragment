@@ -189,8 +189,10 @@ int color yellow_wallet_save_below 0x7f0800b8
 int color yellow_wallet_top 0x7f0800b9
 int dimen half_padding 0x7f090000
 int dimen standard_padding 0x7f090001
-int drawable launcher_icon 0x7f020000
-int drawable share_via_barcode 0x7f020001
+int drawable capture 0x7f020000
+int drawable launcher_icon 0x7f020001
+int drawable scan_line 0x7f020002
+int drawable share_via_barcode 0x7f020003
 int id app_picker_list_item_icon 0x7f0a0007
 int id app_picker_list_item_label 0x7f0a0008
 int id bookmark_title 0x7f0a0009

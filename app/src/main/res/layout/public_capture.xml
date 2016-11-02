@@ -33,90 +33,80 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent" />
 
-        <ImageView
-            android:id="@+id/topMask"
-            android:layout_width="match_parent"
-            android:layout_height="120dip"
-            android:layout_alignParentTop="true"
-            android:background="@drawable/scan_mask"
-            android:contentDescription="@string/app_name" />
-        <ImageView
-            android:id="@+id/iv_album"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignParentTop="true"
-            android:layout_alignParentRight="true"
-            android:src="@drawable/photo"
-            android:padding="12dp"
-            />
+        <!--<ImageView-->
+            <!--android:id="@+id/topMask"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="120dip"-->
+            <!--android:layout_alignParentTop="true"-->
+            <!--android:background="@drawable/scan_mask"-->
+            <!--android:contentDescription="@string/app_name" />-->
+        <!--<ImageView-->
+            <!--android:id="@+id/iv_album"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_alignParentTop="true"-->
+            <!--android:layout_alignParentRight="true"-->
+            <!--android:src="@drawable/photo"-->
+            <!--android:padding="12dp"-->
+            <!--/>-->
 
-        <RelativeLayout
-            android:id="@+id/captureCropLayout"
-            android:layout_width="200dip"
-            android:layout_height="200dip"
-            android:layout_below="@id/topMask"
-            android:layout_centerHorizontal="true"
-            android:background="@drawable/capture"
-            android:contentDescription="@string/app_name">
+        <!--<RelativeLayout-->
+            <!--android:id="@+id/captureCropLayout"-->
+            <!--android:layout_width="200dip"-->
+            <!--android:layout_height="200dip"-->
+            <!--android:layout_below="@id/topMask"-->
+            <!--android:layout_centerHorizontal="true"-->
+            <!--android:background="@drawable/capture"-->
+            <!--android:contentDescription="@string/app_name">-->
 
-            <ImageView
-                android:id="@+id/captureScanLine"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_alignParentTop="true"
-                android:background="@drawable/scan_line"
-                android:contentDescription="@string/app_name" />
-        </RelativeLayout>
+            <!--<ImageView-->
+                <!--android:id="@+id/captureScanLine"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_alignParentTop="true"-->
+                <!--android:background="@drawable/scan_line"-->
+                <!--android:contentDescription="@string/app_name" />-->
+        <!--</RelativeLayout>-->
 
-        <ImageView
-            android:id="@+id/bottomMask"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_alignParentBottom="true"
-            android:layout_below="@id/captureCropLayout"
-            android:background="@drawable/scan_mask"
-            android:contentDescription="@string/app_name" />
+        <!--<ImageView-->
+            <!--android:id="@+id/bottomMask"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:layout_alignParentBottom="true"-->
+            <!--android:layout_below="@id/captureCropLayout"-->
+            <!--android:background="@drawable/scan_mask"-->
+            <!--android:contentDescription="@string/app_name" />-->
 
-        <ImageView
-            android:id="@+id/leftMask"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_above="@id/bottomMask"
-            android:layout_alignParentLeft="true"
-            android:layout_below="@id/topMask"
-            android:layout_toLeftOf="@id/captureCropLayout"
-            android:background="@drawable/scan_mask"
-            android:contentDescription="@string/app_name" />
+        <!--<ImageView-->
+            <!--android:id="@+id/leftMask"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:layout_above="@id/bottomMask"-->
+            <!--android:layout_alignParentLeft="true"-->
+            <!--android:layout_below="@id/topMask"-->
+            <!--android:layout_toLeftOf="@id/captureCropLayout"-->
+            <!--android:background="@drawable/scan_mask"-->
+            <!--android:contentDescription="@string/app_name" />-->
 
-        <ImageView
-            android:id="@+id/rightMask"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_above="@id/bottomMask"
-            android:layout_alignParentRight="true"
-            android:layout_below="@id/topMask"
-            android:layout_toRightOf="@id/captureCropLayout"
-            android:background="@drawable/scan_mask"
-            android:contentDescription="@string/app_name" />
+        <!--<ImageView-->
+            <!--android:id="@+id/rightMask"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:layout_above="@id/bottomMask"-->
+            <!--android:layout_alignParentRight="true"-->
+            <!--android:layout_below="@id/topMask"-->
+            <!--android:layout_toRightOf="@id/captureCropLayout"-->
+            <!--android:background="@drawable/scan_mask"-->
+            <!--android:contentDescription="@string/app_name" />-->
 
-        <TextView
-            android:id="@+id/tv_charge_remind"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_below="@id/captureCropLayout"
-            android:layout_centerHorizontal="true"
-            android:layout_marginTop="20dip"
-            android:text="请将二维码放入扫描框中开始充电"
-            android:textColor="@android:color/white"
-            android:textSize="13sp" />
 
         <ImageView
             android:id="@+id/iv_lamp"
             android:layout_width="50dp"
             android:layout_height="50dp"
             android:layout_centerHorizontal="true"
-            android:layout_marginTop="30dp"
-            android:layout_below="@+id/tv_charge_remind"
+            android:layout_marginBottom="30dp"
+            android:layout_alignParentBottom="true"
             android:src="@drawable/count_scancode_ic_light_off" />
 
     </RelativeLayout>
