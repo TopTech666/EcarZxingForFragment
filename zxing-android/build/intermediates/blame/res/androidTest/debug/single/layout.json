@@ -4,6 +4,10 @@
         "source": "D:\\temp\\EcarZxingForFragment\\zxing-android\\build\\intermediates\\bundles\\debug\\res\\layout\\share.xml"
     },
     {
+        "merged": "D:\\temp\\tinkerKim\\EcarZxingForFragment\\zxing-android\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\history_list_item.xml",
+        "source": "D:\\temp\\tinkerKim\\EcarZxingForFragment\\zxing-android\\build\\intermediates\\bundles\\debug\\res\\layout\\history_list_item.xml"
+    },
+    {
         "merged": "D:\\temp\\EcarZxingForFragment\\zxing-android\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\history_list_item.xml",
         "source": "D:\\temp\\EcarZxingForFragment\\zxing-android\\build\\intermediates\\bundles\\debug\\res\\layout\\history_list_item.xml"
     },
@@ -12,12 +16,40 @@
         "source": "D:\\temp\\EcarZxingForFragment\\zxing-android\\build\\intermediates\\bundles\\debug\\res\\layout\\search_book_contents_list_item.xml"
     },
     {
+        "merged": "D:\\temp\\tinkerKim\\EcarZxingForFragment\\zxing-android\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\help.xml",
+        "source": "D:\\temp\\tinkerKim\\EcarZxingForFragment\\zxing-android\\build\\intermediates\\bundles\\debug\\res\\layout\\help.xml"
+    },
+    {
+        "merged": "D:\\temp\\tinkerKim\\EcarZxingForFragment\\zxing-android\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\encode.xml",
+        "source": "D:\\temp\\tinkerKim\\EcarZxingForFragment\\zxing-android\\build\\intermediates\\bundles\\debug\\res\\layout\\encode.xml"
+    },
+    {
         "merged": "D:\\temp\\EcarZxingForFragment\\zxing-android\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\search_book_contents.xml",
         "source": "D:\\temp\\EcarZxingForFragment\\zxing-android\\build\\intermediates\\bundles\\debug\\res\\layout\\search_book_contents.xml"
     },
     {
+        "merged": "D:\\temp\\tinkerKim\\EcarZxingForFragment\\zxing-android\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\search_book_contents_list_item.xml",
+        "source": "D:\\temp\\tinkerKim\\EcarZxingForFragment\\zxing-android\\build\\intermediates\\bundles\\debug\\res\\layout\\search_book_contents_list_item.xml"
+    },
+    {
+        "merged": "D:\\temp\\tinkerKim\\EcarZxingForFragment\\zxing-android\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\search_book_contents_header.xml",
+        "source": "D:\\temp\\tinkerKim\\EcarZxingForFragment\\zxing-android\\build\\intermediates\\bundles\\debug\\res\\layout\\search_book_contents_header.xml"
+    },
+    {
+        "merged": "D:\\temp\\tinkerKim\\EcarZxingForFragment\\zxing-android\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\search_book_contents.xml",
+        "source": "D:\\temp\\tinkerKim\\EcarZxingForFragment\\zxing-android\\build\\intermediates\\bundles\\debug\\res\\layout\\search_book_contents.xml"
+    },
+    {
+        "merged": "D:\\temp\\tinkerKim\\EcarZxingForFragment\\zxing-android\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\app_picker_list_item.xml",
+        "source": "D:\\temp\\tinkerKim\\EcarZxingForFragment\\zxing-android\\build\\intermediates\\bundles\\debug\\res\\layout\\app_picker_list_item.xml"
+    },
+    {
         "merged": "D:\\temp\\EcarZxingForFragment\\zxing-android\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\search_book_contents_header.xml",
         "source": "D:\\temp\\EcarZxingForFragment\\zxing-android\\build\\intermediates\\bundles\\debug\\res\\layout\\search_book_contents_header.xml"
+    },
+    {
+        "merged": "D:\\temp\\tinkerKim\\EcarZxingForFragment\\zxing-android\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\share.xml",
+        "source": "D:\\temp\\tinkerKim\\EcarZxingForFragment\\zxing-android\\build\\intermediates\\bundles\\debug\\res\\layout\\share.xml"
     },
     {
         "merged": "D:\\temp\\EcarZxingForFragment\\zxing-android\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\app_picker_list_item.xml",
@@ -34,5 +66,9 @@
     {
         "merged": "D:\\temp\\EcarZxingForFragment\\zxing-android\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\help.xml",
         "source": "D:\\temp\\EcarZxingForFragment\\zxing-android\\build\\intermediates\\bundles\\debug\\res\\layout\\help.xml"
+    },
+    {
+        "merged": "D:\\temp\\tinkerKim\\EcarZxingForFragment\\zxing-android\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\bookmark_picker_list_item.xml",
+        "source": "D:\\temp\\tinkerKim\\EcarZxingForFragment\\zxing-android\\build\\intermediates\\bundles\\debug\\res\\layout\\bookmark_picker_list_item.xml"
     }
 ]

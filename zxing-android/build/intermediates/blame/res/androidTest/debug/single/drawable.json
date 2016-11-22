@@ -4,6 +4,14 @@
         "source": "D:\\temp\\EcarZxingForFragment\\zxing-android\\build\\intermediates\\bundles\\debug\\res\\drawable\\launcher_icon.png"
     },
     {
+        "merged": "D:\\temp\\tinkerKim\\EcarZxingForFragment\\zxing-android\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\launcher_icon.png",
+        "source": "D:\\temp\\tinkerKim\\EcarZxingForFragment\\zxing-android\\build\\intermediates\\bundles\\debug\\res\\drawable\\launcher_icon.png"
+    },
+    {
+        "merged": "D:\\temp\\tinkerKim\\EcarZxingForFragment\\zxing-android\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\share_via_barcode.png",
+        "source": "D:\\temp\\tinkerKim\\EcarZxingForFragment\\zxing-android\\build\\intermediates\\bundles\\debug\\res\\drawable\\share_via_barcode.png"
+    },
+    {
         "merged": "D:\\temp\\EcarZxingForFragment\\zxing-android\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\share_via_barcode.png",
         "source": "D:\\temp\\EcarZxingForFragment\\zxing-android\\build\\intermediates\\bundles\\debug\\res\\drawable\\share_via_barcode.png"
     }

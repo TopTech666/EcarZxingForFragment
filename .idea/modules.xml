@@ -3,7 +3,10 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/EcarZxingForFragment.iml" filepath="$PROJECT_DIR$/EcarZxingForFragment.iml" />
+      <module fileurl="file://$PROJECT_DIR$/EcarZxingForFragment.iml" filepath="$PROJECT_DIR$/EcarZxingForFragment.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/zxing-android/zxing-android.iml" filepath="$PROJECT_DIR$/zxing-android/zxing-android.iml" />
       <module fileurl="file://$PROJECT_DIR$/zxing-android/zxing-android.iml" filepath="$PROJECT_DIR$/zxing-android/zxing-android.iml" />
     </modules>
   </component>

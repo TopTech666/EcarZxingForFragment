@@ -43,6 +43,41 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/zxing-android/src/main/java/com/google/zxing/client/android/encode/EncodeActivity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/zxing-android/src/main/java/com/google/zxing/client/android/result/ResultHandler.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/zxing-android/src/main/res/values-ar/strings.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/zxing-android/src/main/res/values-uk/strings.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/zxing-android/src/main/res/values-zh-rCN/strings.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/zxing-android/src/main/res/values-zh-rHK/strings.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/zxing-android/src/main/res/values-zh-rTW/strings.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/../parkBees-android-160905/parkbees/build.gradle">
           <value>
             <set />

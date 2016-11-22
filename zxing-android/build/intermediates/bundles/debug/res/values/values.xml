@@ -215,7 +215,7 @@
     <color name="vendor_list_top">#A4D6F7</color>
     <color name="viewfinder_frame">#ff000000</color>
     <color name="viewfinder_laser">#ffcc0000</color>
-    <color name="viewfinder_mask">#60000000</color>
+    <color name="viewfinder_mask">#B0000000</color>
     <color name="white">#ffffffff</color>
     <color name="white_transparent">#20000000</color>
     <color name="yellow">#B87333</color>

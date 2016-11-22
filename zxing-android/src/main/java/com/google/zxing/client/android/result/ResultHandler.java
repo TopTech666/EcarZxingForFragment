@@ -460,11 +460,6 @@ public abstract class ResultHandler {
     try {
       rawLaunchIntent(intent);
     } catch (ActivityNotFoundException ignored) {
-      AlertDialog.Builder builder = new AlertDialog.Builder(activity);
-      builder.setTitle(R.string.app_name);
-      builder.setMessage(R.string.msg_intent_failed);
-      builder.setPositiveButton(R.string.button_ok, null);
-      builder.show();
     }
   }
 
