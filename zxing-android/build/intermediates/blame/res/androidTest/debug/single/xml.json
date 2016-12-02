@@ -1,9 +1,5 @@
 [
     {
-        "merged": "D:\\temp\\tinkerKim\\EcarZxingForFragment\\zxing-android\\build\\intermediates\\res\\merged\\androidTest\\debug\\xml\\preferences.xml",
-        "source": "D:\\temp\\tinkerKim\\EcarZxingForFragment\\zxing-android\\build\\intermediates\\bundles\\debug\\res\\xml\\preferences.xml"
-    },
-    {
         "merged": "D:\\temp\\EcarZxingForFragment\\zxing-android\\build\\intermediates\\res\\merged\\androidTest\\debug\\xml\\preferences.xml",
         "source": "D:\\temp\\EcarZxingForFragment\\zxing-android\\build\\intermediates\\bundles\\debug\\res\\xml\\preferences.xml"
     }
