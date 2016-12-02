@@ -1,5 +1,13 @@
 [
     {
+        "merged": "D:\\temp\\tinkerKim\\EcarZxingForFragment\\zxing-android\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout-land\\share.xml",
+        "source": "D:\\temp\\tinkerKim\\EcarZxingForFragment\\zxing-android\\build\\intermediates\\bundles\\debug\\res\\layout-land\\share.xml"
+    },
+    {
+        "merged": "D:\\temp\\tinkerKim\\EcarZxingForFragment\\zxing-android\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout-land\\encode.xml",
+        "source": "D:\\temp\\tinkerKim\\EcarZxingForFragment\\zxing-android\\build\\intermediates\\bundles\\debug\\res\\layout-land\\encode.xml"
+    },
+    {
         "merged": "D:\\temp\\EcarZxingForFragment\\zxing-android\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout-land\\encode.xml",
         "source": "D:\\temp\\EcarZxingForFragment\\zxing-android\\build\\intermediates\\bundles\\debug\\res\\layout-land\\encode.xml"
     },
